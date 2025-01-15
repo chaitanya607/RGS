@@ -1,0 +1,58 @@
+/* General Admin Interface Customization */
+
+/* Change the background color of the header */
+header {
+    background-color: #4A90E2; /* Change to your preferred color */
+    color: white;
+}
+
+/* Change the font color for the header links */
+header a {
+    color: white;
+}
+
+/* Style the main content area */
+#content {
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Add some padding to the form fields */
+form {
+    padding: 15px;
+}
+
+/* Style buttons in the admin */
+button, input[type="submit"], input[type="button"] {
+    background-color: #4A90E2; /* Change button color */
+    color: white; /* Text color */
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover, input[type="submit"]:hover, input[type="button"]:hover {
+    background-color: #357ABD; /* Darker shade on hover */
+}
+
+/* Style the list view headers */
+thead th {
+    background-color: #e9ecef; /* Light grey for header */
+    font-weight: bold;
+}
+
+/* Style the rows in the list view */
+tbody tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+/* Style the error messages */
+.errornote {
+    background-color: #f8d7da; /* Light red background */
+    border-color: #f5c6cb; /* Red border */
+    color: #721c24; /* Dark red text */
+    padding: 10px;
+    border-radius: 5px;
+}
