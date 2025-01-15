@@ -1,2 +1,2 @@
-web: gunicorn your_project_name.wsgi
+web: gunicorn emailmarketing.wsgi
 worker: celery -A emailmarketing worker --loglevel=info
